@@ -1,0 +1,14 @@
+# Laravel
+/vendor
+/node_modules
+.env
+
+# Docker volumes
+/db_data
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
