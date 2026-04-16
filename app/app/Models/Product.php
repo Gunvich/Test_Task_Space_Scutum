@@ -14,4 +14,7 @@ class Product extends Model
         'category',
         'image',
     ];
+    public function comments(){
+        return $this->hasMany(Comment::class);
+    }
 }
